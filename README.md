@@ -18,6 +18,50 @@ Crear una función `sumarArray` que tome como argumento un array de números y d
 sumar([4, 5, 10]) // 19
 ```
 
+
+### POR CORTE DE LUZ
+
+Dejamos algunos ejercicios optativos de arrays para quienes quieran seguir practicando. 
+
+Como alternativa, les recomiendo que revean las clases 38 y 39 en donde hablamos de arrays y matrices. Si se sienten confiadas, pueden intentar los ejercicios 3 y 4 luego de verlas. 
+
+### `sumarSeccion(array, comienzo, cantidad)`
+
+Crear una función `sumarSeccion` que tome como argumento un array de números enteros `array`, un número entero `comienzo` y un número entero `cantidad`, y que devuelva la suma de `cantidad` de números de `array` empezando a contar desde el ítem con índice `comienzo`.
+
+```javascript
+sumarSeccion([2, 2, 4, 3, 10, 20, 5], 0, 3) // 8 (2 + 2 + 4 = 8)
+sumarSeccion([2, 2, 4, 3, 10, 20, 5], 2, 4) // 37 (4 + 8 + 10 + 20 = 37)
+sumarSeccion([2, 2, 4, 3, 10, 20, 5], 4, 1) // 3
+```
+
+### `esSubconjunto(subconjunto, conjunto)`
+
+Crear una función `esSubconjunto` que tome como argumento dos arrays, `subconjunto` y `conjunto`, y devuelva `true` si `subconjunto` es realmente subconjunto de `conjunto`, es decir, si todos los valores de `subconjunto` están en `conjunto`.
+
+```javascript
+esSubconjunto([1], [1, 2, 3]) // true
+esSubconjunto([1, 2, 3], [1, 2, 3, 4, 5]) // true
+esSubconjunto([27, 49, 54], [54, 27, 8, 27, 49]) // true
+esSubconjunto([1, 2, 3], [1, 2]) // false
+esSubconjunto([1], [2, 3, 4]) // false
+```
+
+### `tieneBloque(array)`
+
+Crear una función `hayBloque` que tome como argumento un array `array` y devuelva `true` si dicho `array` tiene un bloque de 3 o más ítems consecutivos idénticos, o `false` si no tiene.
+
+```javascript
+tieneBloque([1, 2, 3]) // false
+tieneBloque([1, 1, 1, 2, 3]) // true
+tieneBloque([1, 2, 3, 3, 3]) // true
+tieneBloque([1, 2, 3, 3, 3, 8]) // true
+tieneBloque([1, 2, 2, 3, 3, 4]) // false
+```
+
+ 
+### CONTINUAREMOS EL MIERCOLES 4/4 CON LOS SIGUIENTES EJERCICIOS 
+
 ### 3 `obtenerNumeroMayor(matriz)`
 
 Crear una función `obtenerNumeroMayor` que tome como argumento un array 2d de números `matriz` y devuelva el mayor número de dicha matriz.
