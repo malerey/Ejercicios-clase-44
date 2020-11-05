@@ -60,7 +60,7 @@ tieneBloque([1, 2, 2, 3, 3, 4]) // false
 ```
 
  
-### CONTINUAREMOS EL MIERCOLES 4/4 CON LOS SIGUIENTES EJERCICIOS 
+### CONTINUAREMOS EL MIERCOLES 4/11 CON LOS SIGUIENTES EJERCICIOS 
 
 ### 3 `obtenerNumeroMayor(matriz)`
 
